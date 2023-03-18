@@ -1,0 +1,250 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+
+/* Body styles */
+
+
+
+body {
+	background-color: #7ac2ec;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	
+  }
+  
+  /* Header styles */
+  
+  header {
+	background-color: #084474;
+	color: #e8dfdf;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  h1, h2, h3 {
+	margin: 0;
+  }
+  
+  h1 {
+	font-size: 48px;
+	
+  }
+  
+  h2 {
+	font-size: 36px;
+  }
+  
+  h3 {
+	font-size: 24px;
+  }
+  
+  /* Main content styles */
+  nav {
+	
+	padding: 50px;
+	margin: 20px;
+	text-align: center;
+  }
+  
+  /* nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+   nav li {
+	float: left;
+  }
+  
+    li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: #555;
+  } */
+  
+  #main-content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #event-details {
+	margin-bottom: 40px;
+  }
+  
+  #event-details h3 {
+	font-size: 30px;
+  }
+  
+  #event-details p {
+	margin: 0;
+  }
+  #speakers {
+	margin-bottom: 40px;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  #speakers h2 {
+	font-size: 30px;
+	text-align: center;
+  }
+  
+  #speakers table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  #speakers th, #speakers td {
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+  
+  #speakers th {
+	background-color: #7ca0c4;
+	color: #fff;
+	text-align: left;
+  }
+  #schedule {
+	margin-bottom: 40px;
+	text-align: center;
+  }
+  
+  #schedule h3 {
+	font-size: 30px;
+	text-align: center;
+  }
+  
+  #schedule table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  #schedule th, #schedule td {
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+  
+  #schedule th {
+	background-color: #7ca0c4;
+	color: #fff;
+	text-align: left;
+  }
+  #events {
+	margin-bottom: 40px;
+	text-align: center;
+	
+  }
+  
+  #events h3 {
+	font-size: 30px;
+	text-align: center;
+  }
+  
+  #events table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  #events th, #events td {
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+  
+  #events th {
+	background-color: #7ca0c4;
+	color: #fff;
+	text-align: left;
+  }
+  /* #events {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+  }
+  
+  #events h3 {
+	font-size: 30px;
+	flex-basis: 100%;
+  }
+  
+  #events {
+	flex-basis: calc(50% - 20px);
+	background-color: #fff;
+	 box-shadow: 0 0 10px #4eaed11a; 
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  #events:last-child {
+	margin-right: 0;
+  }
+  
+  #events h4 {
+	margin-top: 0;
+  }
+  
+  #events p {
+	margin: 0;
+  }
+   */
+  #venue {
+	margin-bottom: 40px;
+  }
+  
+  #venue h3 {
+	font-size: 30px;
+  }
+  
+  #venue p {
+	margin: 0;
+  }
+  
+  /* Register button styles */
+  
+   #button1 {
+	display: inline-block;
+	background-color: #7aa0c5;
+	color: #181616;
+	padding: 10px 20px;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.5s;
+  }
+  
+  #button1::hover {
+	background-color: #8eadd3;
+  }
+  ul{
+	display: inline-block;
+  }
+ li{
+	text-align:left;
+ }
+  ol{
+	display: inline-block;
+  }
+  #registration p{
+	justify-content:center;
+	text-align:center;
+	size: 50px 50px;
+  }
+  
